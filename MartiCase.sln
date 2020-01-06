@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.API", "1.API", "{1D0DA86E-600A-4174-8DED-938EEFF2D378}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartiCase.API", "MartiCase.API\MartiCase.API.csproj", "{5CB0E329-56A7-4E1F-862A-6A1DDF7EDB05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartiCase.API.Common", "MartiCase.API.Common\MartiCase.API.Common.csproj", "{8A967115-1E70-4C5E-82C3-5AA9DD26AEF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartiCase.API.DataContracts", "MartiCase.API.DataContracts\MartiCase.API.DataContracts.csproj", "{C6B5656D-261D-4B9E-822F-C2E8CA89A3B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Tests", "00.Tests", "{82E0EE39-236C-4E3B-A590-FC6FC669C9BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartiCase.API.Tests", "MartiCase.API.Tests.Controllers\MartiCase.API.Tests.csproj", "{935784DC-213C-44E1-A757-E4A051B9A8E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Common", "01.Common", "{972C5F08-46E1-4002-B298-19E80D109112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartiCase.IoC.Configuration", "MartiCase.IoC.Configuration\MartiCase.IoC.Configuration.csproj", "{661F5DBC-D686-44E7-BABA-46A60D6402F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartiCase.Tools", "MartiCase.Tools\MartiCase.Tools.csproj", "{104422A5-1446-4C99-93CC-8B4FDC998F60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{5779C60F-3618-4275-A784-FD61C73DAFC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartiCase.Services", "MartiCase.Services\MartiCase.Services.csproj", "{823CC830-C770-4612-B274-635AB560588E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartiCase.Converters", "MartiCase.Convertion\MartiCase.Converters.csproj", "{75345ACF-8FB4-4E23-9C05-8B28BB04B343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CB0E329-56A7-4E1F-862A-6A1DDF7EDB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB0E329-56A7-4E1F-862A-6A1DDF7EDB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB0E329-56A7-4E1F-862A-6A1DDF7EDB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB0E329-56A7-4E1F-862A-6A1DDF7EDB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A967115-1E70-4C5E-82C3-5AA9DD26AEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A967115-1E70-4C5E-82C3-5AA9DD26AEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A967115-1E70-4C5E-82C3-5AA9DD26AEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A967115-1E70-4C5E-82C3-5AA9DD26AEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B5656D-261D-4B9E-822F-C2E8CA89A3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B5656D-261D-4B9E-822F-C2E8CA89A3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B5656D-261D-4B9E-822F-C2E8CA89A3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B5656D-261D-4B9E-822F-C2E8CA89A3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935784DC-213C-44E1-A757-E4A051B9A8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935784DC-213C-44E1-A757-E4A051B9A8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935784DC-213C-44E1-A757-E4A051B9A8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935784DC-213C-44E1-A757-E4A051B9A8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661F5DBC-D686-44E7-BABA-46A60D6402F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661F5DBC-D686-44E7-BABA-46A60D6402F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661F5DBC-D686-44E7-BABA-46A60D6402F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661F5DBC-D686-44E7-BABA-46A60D6402F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104422A5-1446-4C99-93CC-8B4FDC998F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104422A5-1446-4C99-93CC-8B4FDC998F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104422A5-1446-4C99-93CC-8B4FDC998F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104422A5-1446-4C99-93CC-8B4FDC998F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823CC830-C770-4612-B274-635AB560588E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823CC830-C770-4612-B274-635AB560588E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823CC830-C770-4612-B274-635AB560588E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823CC830-C770-4612-B274-635AB560588E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75345ACF-8FB4-4E23-9C05-8B28BB04B343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75345ACF-8FB4-4E23-9C05-8B28BB04B343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75345ACF-8FB4-4E23-9C05-8B28BB04B343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75345ACF-8FB4-4E23-9C05-8B28BB04B343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CB0E329-56A7-4E1F-862A-6A1DDF7EDB05} = {1D0DA86E-600A-4174-8DED-938EEFF2D378}
+		{8A967115-1E70-4C5E-82C3-5AA9DD26AEF1} = {1D0DA86E-600A-4174-8DED-938EEFF2D378}
+		{C6B5656D-261D-4B9E-822F-C2E8CA89A3B3} = {1D0DA86E-600A-4174-8DED-938EEFF2D378}
+		{935784DC-213C-44E1-A757-E4A051B9A8E2} = {82E0EE39-236C-4E3B-A590-FC6FC669C9BD}
+		{661F5DBC-D686-44E7-BABA-46A60D6402F7} = {972C5F08-46E1-4002-B298-19E80D109112}
+		{104422A5-1446-4C99-93CC-8B4FDC998F60} = {972C5F08-46E1-4002-B298-19E80D109112}
+		{823CC830-C770-4612-B274-635AB560588E} = {5779C60F-3618-4275-A784-FD61C73DAFC4}
+		{75345ACF-8FB4-4E23-9C05-8B28BB04B343} = {5779C60F-3618-4275-A784-FD61C73DAFC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56095769-AAB2-457C-B920-6B831133F1ED}
+	EndGlobalSection
+EndGlobal
